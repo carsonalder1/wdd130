@@ -1,0 +1,37 @@
+body {
+    background-image: url('../images/smash-bros-smash.gif');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logos img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+}
+
+.logos img:hover {
+    opacity: 1;
+}
